@@ -1,0 +1,47 @@
+[
+  {
+    "original": 6,
+    "sys": 8,
+    "event": "擊敗敵將",
+    "confidence": "待遊戲確認",
+    "bank_offset": 311008,
+    "section_bytes": 68160,
+    "audio_id_le": "8d6fdd11"
+  },
+  {
+    "original": 7,
+    "sys": 9,
+    "event": "我方將領敗走",
+    "confidence": "已遊戲確認",
+    "bank_offset": 379168,
+    "section_bytes": 97152,
+    "audio_id_le": "3092803a"
+  },
+  {
+    "original": 8,
+    "sys": 10,
+    "event": "情報",
+    "confidence": "待辨識",
+    "bank_offset": 476320,
+    "section_bytes": 78144,
+    "audio_id_le": "b398e86d"
+  },
+  {
+    "original": 9,
+    "sys": 11,
+    "event": "歡呼",
+    "confidence": "已試聽辨識",
+    "bank_offset": 554464,
+    "section_bytes": 125184,
+    "audio_id_le": "f94c3d16"
+  },
+  {
+    "original": 10,
+    "sys": 12,
+    "event": "警告",
+    "confidence": "待辨識",
+    "bank_offset": 679648,
+    "section_bytes": 69184,
+    "audio_id_le": "de104475"
+  }
+]

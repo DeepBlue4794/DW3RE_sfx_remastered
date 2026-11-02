@@ -1,0 +1,90 @@
+﻿{
+  "asset_sha256": "0592756f2c2e986cdbc472f0c30cbfa8a1a651048b447210f2a9bdf8270b1288",
+  "bank_sha256": "fef142844f55995e5c45004f9ae574f3dd395633cf61e8e45e10fc9f5878a27d",
+  "asset_bank_offset": 302,
+  "bank_bytes": 3703888,
+  "source_audio": [
+    {
+      "file": "linkdata_00006.wav",
+      "sha256": "7afc4696d44df80d8857fbf981ee34aa8cbfa85091925eab641dc67c2be236a2",
+      "bytes": 26842,
+      "rate": 11025,
+      "channels": 1,
+      "sample_width": 2,
+      "samples": 13384
+    },
+    {
+      "file": "linkdata_00007.wav",
+      "sha256": "a5de9e59111c26d0559430f79100dce4063cf7406b8b8b1f150fbbd0e7ff0298",
+      "bytes": 57026,
+      "rate": 11025,
+      "channels": 1,
+      "sample_width": 2,
+      "samples": 28476
+    },
+    {
+      "file": "linkdata_00009.wav",
+      "sha256": "673003d451b60fb9f380fe0b7b3a024ff551760eb8c2a8683caad24d53186194",
+      "bytes": 66322,
+      "rate": 11025,
+      "channels": 1,
+      "sample_width": 2,
+      "samples": 33124
+    }
+  ],
+  "mapping": [
+    {
+      "original": 6,
+      "sys": 8,
+      "event": "enemy officer defeated",
+      "confidence": "tentative user identification",
+      "bank_offset": 311008,
+      "section_bytes": 68160,
+      "audio_id_le": "8d6fdd11",
+      "reference_candidate_offsets": [
+        1704,
+        1868,
+        311016
+      ]
+    },
+    {
+      "original": 7,
+      "sys": 9,
+      "event": "allied officer routed",
+      "confidence": "user identification",
+      "bank_offset": 379168,
+      "section_bytes": 97152,
+      "audio_id_le": "3092803a",
+      "reference_candidate_offsets": [
+        1928,
+        2092,
+        379176
+      ]
+    },
+    {
+      "original": 9,
+      "sys": 11,
+      "event": "cheering",
+      "confidence": "user identification",
+      "bank_offset": 554464,
+      "section_bytes": 125184,
+      "audio_id_le": "f94c3d16",
+      "reference_candidate_offsets": [
+        2376,
+        2540,
+        6964,
+        554472
+      ]
+    }
+  ],
+  "section_count": 114,
+  "audio_stream_count": 53,
+  "checks": {
+    "asset_bank_match": true,
+    "bank_length_match": true,
+    "section_boundaries_valid": true,
+    "no_op_rebuild_byte_identical": true,
+    "target_ids_match": true
+  },
+  "scope": "offline baseline only; no installation or game modification"
+}

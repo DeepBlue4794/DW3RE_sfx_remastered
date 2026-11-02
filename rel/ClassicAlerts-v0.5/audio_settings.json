@@ -1,0 +1,11 @@
+{
+  "reference": "v0.3",
+  "default_gain_db_vs_v03": 10.0,
+  "source_headroom_db": -0.5,
+  "limiter_ceiling_dbfs": -1.5,
+  "limiter_lookahead_ms": 3,
+  "limiter_release_ms": 30,
+  "note": "Apply once from original WAV on every future build; never cumulatively boost previous outputs.",
+  "processing_mode": "soft_knee_saturation",
+  "soft_knee_fraction": 0.65
+}
