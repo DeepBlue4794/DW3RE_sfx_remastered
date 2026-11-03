@@ -1,31 +1,38 @@
 # DW3RE Classic Sound Effects
 
-A PC sound replacement mod for **Dynasty Warriors 3: Complete Edition Remastered**, restoring five classic Dynasty Warriors 3 battle notifications: enemy officer defeated, allied officer retreat, information, cheering, and warnings.
+Bring back the classic battle notification sounds from **Dynasty Warriors 3** in **Dynasty Warriors 3: Complete Edition Remastered** on PC.
 
-The current version, **v0.5**, increases the volume of these replacements. Peak compression can make the sound slightly harsher. The other 48 sounds in the Sys bank remain unchanged. Package and decoding checks pass; v0.5 still needs in-game listening feedback.
+This mod replaces five sounds: defeating an enemy officer, an allied officer retreating, information notices, cheering, and warnings.
 
-## Download and install
+## Download
 
-1. Download [ClassicAlerts-v0.5.zip](rel/ClassicAlerts-v0.5.zip) (open the file and choose **Download raw file**).
-2. Close the game. In Steam, right-click the game and select **Manage > Browse local files**.
-3. Remove any previous version of this mod's `.pak`, `.utoc`, and `.ucas` files from `DW3CE_RE/Content/Paks`. Do not remove the original `DW3CE_RE-Windows.*` or `global.*` files.
-4. Extract the ZIP and copy its `DW3CE_RE` folder into the game installation folder, merging folders when prompted.
-5. Verify that these three files are in `<game installation>/DW3CE_RE/Content/Paks/`:
-   - `zDW3_ClassicAlerts_v05_P.pak`
-   - `zDW3_ClassicAlerts_v05_P.utoc`
-   - `zDW3_ClassicAlerts_v05_P.ucas`
-6. Launch the game and test the notification sounds.
+**[Download v0.5](https://github.com/DeepBlue4794/DW3RE_sfx_remastered/raw/refs/heads/main/rel/ClassicAlerts-v0.5.zip)**
 
-Use only one version at a time. Other mods replacing the same Sys sound bank may conflict. No additional mod loader is required.
+No extra modding software is needed.
 
-To uninstall, close the game and remove only the three `zDW3_ClassicAlerts_v05_P` files listed above.
+## Install
 
-## Repository contents
+1. Close the game and extract the downloaded ZIP.
+2. In your Steam library, right-click the game and choose **Manage > Browse local files**.
+3. Copy the extracted `DW3CE_RE` folder into the game folder that Steam opened. Merge the folders if asked.
+4. Launch the game and enjoy the classic sounds!
 
-- `origin_sfx_res/`: original sound files and the source archive's readme.
-- `rel/`: the current mod package, installation files, and validation report.
-- `doc/`: sound mappings, listening samples, development notes, and [project status](doc/STATUS.md).
+After installation, the game's `DW3CE_RE/Content/Paks` folder should contain these three files:
+
+```text
+zDW3_ClassicAlerts_v05_P.pak
+zDW3_ClassicAlerts_v05_P.utoc
+zDW3_ClassicAlerts_v05_P.ucas
+```
+
+**Updating from an older version?** Close the game and remove the previous version's three mod files from that folder before installing. Only keep one version installed. Leave the game's original files alone.
+
+## Uninstall
+
+Close the game and delete only the three files listed above. The original sounds will return the next time you launch the game.
 
 ## Credits
 
-Thanks to **XthemastaX** for sharing the original sound archive through [Dynasty Warriors 3 Sound Effects and Voices (Download Link in Description)](https://www.youtube.com/watch?v=4xKZqx8m1Hc). The archive's readme identifies PSound201 as the extraction tool. Original game audio belongs to its respective rights holders.
+Thanks to **XthemastaX** for sharing the original sound files: [Dynasty Warriors 3 Sound Effects and Voices](https://www.youtube.com/watch?v=4xKZqx8m1Hc).
+
+Original game audio belongs to its respective rights holders.
